@@ -109,7 +109,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Geo Tool'  '\nAuthor:Alexandros' '\nContact: alexandros@parrotsec.org')
     parser.add_argument('--url', help='www.parrotsec.org', action='store', default=False, dest='url')
     parser.add_argument('-t', '--target', help='Locate the specified IP', action='store', default=False, dest='ip')
-    parser.add_argument('--dat', help='Custom database filepath', action='store', default=False, dest='datfile')
+    #parser.add_argument('--dat', help='Custom database filepath', action='store', default=False, dest='datfile')
 args = parser.parse_args()
 if ((not not args.url) and (not not args.ip)) or ((not args.url) and (not args.ip)):
         parser.error('invalid target specification')

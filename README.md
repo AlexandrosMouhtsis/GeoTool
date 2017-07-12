@@ -1,4 +1,4 @@
-usage: findwhere.py [-h] [--url URL] [-t IP] [--dat DATFILE]
+usage: geotool.py [-h] [--url URL] [-t IP] [--dat DATFILE]
 
 optional arguments:
 
